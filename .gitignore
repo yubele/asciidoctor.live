@@ -1,0 +1,6 @@
+/.gitconfig
+/.bundle
+/doc
+/src/doc/**/*.png
+/src/doc/**/*.png.cache
+/node_modules/

@@ -1,0 +1,21 @@
+= asciidocktor.live
+
+Asciidoctor live editor
+
+image:https://img.shields.io/github/license/newsdict/asciidocktor.live[License]
+image:https://img.shields.io/github/v/release/newsdict/asciidocktor.live[Release]
+
+== Quick start
+
+1. Start server.
+
+ $ docker/start
+
+2. Access via browser.
+
+ document server => http://A.B.C.D:3000
+ UI server => http://A.B.C.D:3001
+
+3. Edit the asciidocktor files.
+
+ If you freely create and modify adoc under `src/doc`, it will be reflected in the browser.

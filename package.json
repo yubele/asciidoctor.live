@@ -1,0 +1,27 @@
+{
+  "name": "asciidoctor.live",
+  "version": "0.1.0",
+  "description": "Asciidoctor live editor",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-sync": "browser-sync start --server doc --cwd doc --files '**/*' --logLevel debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yubele/asciidocktor.live.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yubele/asciidocktor.live/issues"
+  },
+  "homepage": "https://github.com/yubele/asciidocktor.live#readme"
+}

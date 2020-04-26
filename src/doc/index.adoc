@@ -1,0 +1,5 @@
+include::../../README.adoc[]
+
+== sample file
+
+link:example[]
