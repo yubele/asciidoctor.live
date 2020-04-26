@@ -2,8 +2,8 @@
 
 Asciidoctor live editor
 
-image:https://img.shields.io/github/license/newsdict/asciidocktor.live[License]
-image:https://img.shields.io/github/v/release/newsdict/asciidocktor.live[Release]
+image:https://img.shields.io/github/license/newsdict/asciidoctor.live[License]
+image:https://img.shields.io/github/v/release/newsdict/asciidoctor.live[Release]
 
 == Quick start
 
