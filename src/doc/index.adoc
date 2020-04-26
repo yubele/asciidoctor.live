@@ -1,3 +1,14 @@
+= Asciidoctor.live
+
+adocファイルをブラウザで確認しながら編集できるOSSです。 +
+特にマニュアルを作成するときなんかに便利です。
+
+== 特徴
+- asciidoctor-diagramでPlantUMLも使えます！
+- dockerで動くのでdockerがサポートされている環境であれば動きます。
+- image:https://img.shields.io/github/license/newsdict/asciidocktor.live[License]です。
+- PR大歓迎!
+
 include::../../README.adoc[]
 
 == sample file
