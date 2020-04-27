@@ -1,4 +1,5 @@
 = Asciidoctor.live
+:toc:
 
 adocファイルをブラウザで確認しながら編集できるOSSです。 +
 特にマニュアルを作成するときなんかに便利です。
@@ -12,5 +13,4 @@ adocファイルをブラウザで確認しながら編集できるOSSです。 
 include::../../README.adoc[]
 
 == sample file
-
 link:example[]
