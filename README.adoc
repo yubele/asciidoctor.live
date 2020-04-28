@@ -33,7 +33,7 @@ image:https://img.shields.io/github/v/release/newsdict/asciidoctor.live[Release]
 
 ## Documentation
 
-https://asciidockor.live
+https://asciidoctor.live
 
 ## License
 
