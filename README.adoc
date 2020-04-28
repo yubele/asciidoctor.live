@@ -1,4 +1,4 @@
-= asciidocktor.live
+= asciidoctor.live
 
 Asciidoctor live editor
 
