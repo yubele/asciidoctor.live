@@ -1,7 +1,7 @@
-= Asciidoctor.live
+:toc: left
 
-adocファイルをブラウザで確認しながら編集できるOSSです。 +
-特にマニュアルを作成するときなんかに便利です。
+= Asciidoctor.live
+ライブプレビュー機能付きのAsciidoctor編集ツールです。
 
 == 特徴
 - asciidoctor-diagramでPlantUMLも使えます！
@@ -9,8 +9,23 @@ adocファイルをブラウザで確認しながら編集できるOSSです。 
 - image:https://img.shields.io/github/license/newsdict/asciidoctor.live[License]です。
 - PR大歓迎!
 
-include::../../README.adoc[]
+== ドキュメント
+- link:getting_start[Getting Start]
+- link:architecture[構成]
 
-== sample file
+== links
+|===
+| Official Site | https://asciidoctor.live
+| github | https://github.com/newsdict/asciidoctor.live
+|===
 
+== Products
+|===
+|asciidoctor| Open source text processor|https://asciidoctor.org/
+|gurad| Watch to change the adoc files|https://guardgem.org/
+|browser-sync| Time-saving synchronised browser testing.|https://www.browsersync.io/
+|theia| Eclipse Theia|https://theia-ide.org/
+|===
+
+== Asciidoctor sample
 link:example[]

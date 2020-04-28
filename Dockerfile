@@ -6,6 +6,10 @@ FROM $base_image
 ENV LANG "C.UTF-8"
 ENV NOKOGIRI_USE_SYSTEM_LIBRARIES "YES"
 
+# Install japanese font
+RUN apt update && \
+    apt install -y fonts-takao-mincho
+
 # Set correct environment variables.
 RUN mkdir -p /var/www/docker
 WORKDIR /var/www/docker
@@ -20,6 +24,10 @@ RUN echo "gem: --no-rdoc --no-ri" > ~/.gemrc
 RUN . /etc/profile.d/rvm.sh && \
   bundle config --global system true && \
   bundle install --quiet
+  
+# Remove the files
+RUN apt-get clean \
+  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 CMD ["bash", "/startup/asciidoctor/startup.sh", "production"]
 

@@ -1,0 +1,35 @@
+= 構成
+:toc: left
+
+== Description
+`docker/start`コマンドですべてが立ち上がります。 +
+立ち上がった後アクセス可能なサービスは以下の通りです
+|===
+| Theia | http://localhost:8080
+| asciidoctor | http://localhost:3000
+| browsersync UI | http://localhost:3001
+|===
+
+[plantuml, diagram-classes, png]
+....
+actor User
+package "docker-compose" {
+    node "asciidoctor"
+    node "guard"
+    node "browser-sync" as browsersync
+    node "theia"
+    package "local" {
+        storage "./doc" as asciidoctored_doc
+        storage "./src/doc" as src_doc
+    }
+    theia --> src_doc : Access the files
+    guard ..o src_doc : Watch for file changes
+    browsersync ..o asciidoctored_doc : Watch for file changes
+    guard --> asciidoctored_doc : Output adoc file
+    User --> asciidoctor : Runnning `docker/start`
+}
+User --> theia : Edit the adoc files
+User --> browsersync : View the asciidoctored files
+....
+
+link:../[Back To The Top]

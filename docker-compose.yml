@@ -39,3 +39,14 @@ services:
       - 3001:3001
     networks:
       - app-tier
+  theia:
+    tty: true
+    stdin_open: true
+    container_name: theia
+    image: theiaide/theia:next
+    volumes:
+      - ./src/doc:/home/project
+    ports:
+      - 8080:3000
+    networks:
+      - app-tier
