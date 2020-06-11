@@ -11,3 +11,4 @@ bundle config --global --delete frozen
 bundle config --global with 'development document test'
 [ -f Gemfile.lock ] && rm Gemfile.lock # Run only when docker-compose build
 bundle install
+yarn install --check-files
