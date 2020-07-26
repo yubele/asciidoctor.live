@@ -7,34 +7,48 @@ image:https://img.shields.io/github/v/release/newsdict/asciidoctor.live[Release]
 
 == Getting start
 
-1. Pull repository.
+=== 1. Pull repository.
 
  $ git clone --recurse-submodules git@github.com:newsdict/asciidoctor.live.git
 
-2. Start server.
+or 
+
+ $ git clone git@github.com:newsdict/asciidoctor.live.git
+ $ pushd asciidocktor.live
+ $ git submodule update --init --recursive
+
+=== 2. Start server.
 
  $ docker/start
 
-3. Access via browser.
+=== 3. Access via browser.
 
  Edit Asciidoctor files (Theai) -> https://localhost:8080
  document server => http://localhost:3000
  UI server => http://localhost:3001
 
-4. Edit the asciidocktor files.
+=== 4. Edit the asciidocktor files.
 
  If you freely create and modify adoc under `src/doc`, it will be reflected in the browser.
+
+== Appendix
+
+=== Reveal JS
+
+  $ docker/revealjs README.adoc
+  
+Outputed to `doc/revealjs/README.html`.
  
-## Contributing
+== Contributing
 
 - Fork the repository and link:https://asciidoctor.live/getting_start/[run the examples from source]
 - Find an issue to work on and submit a pull request
 - Could not find an issue? Look for bugs, typos, and missing features.
 
-## Documentation
+== Documentation
 
 https://asciidoctor.live
 
-## License
+== License
 
 image:https://img.shields.io/github/license/newsdict/asciidoctor.live[License]
