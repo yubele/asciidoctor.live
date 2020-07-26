@@ -10,6 +10,7 @@
 - PR大歓迎!
 
 == ドキュメント
+- link:revealjs/README.html[Presentation]
 - link:getting_start[Getting Start]
 - link:architecture[構成]
 

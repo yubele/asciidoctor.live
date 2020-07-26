@@ -4,3 +4,4 @@
 /src/doc/**/*.png
 /src/doc/**/*.png.cache
 /node_modules/
+/yarn-error.log
