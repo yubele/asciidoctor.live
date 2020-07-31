@@ -12,6 +12,7 @@
 
 [plantuml, diagram-classes, png]
 ....
+skinparam monochrome reverse
 actor User
 package "docker-compose" {
     node "asciidoctor"
