@@ -38,6 +38,10 @@ or
   $ docker/revealjs README.adoc
   
 Outputed to `doc/revealjs/README.html`.
+
+=== Custom Theme
+
+Edit a `theme` variable on `.env` file. 
  
 == Contributing
 
