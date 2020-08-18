@@ -9,7 +9,7 @@ guard 'shell' do
   watch(%r{^README.adoc$}) do |m|
     `bash bin/revealjs README.adoc`
   end
-  watch(%r{^src/doc/samples/lt.adoc$}) do |m|
-    `bash bin/revealjs src/doc/samples/lt.adoc`
+  watch(%r{^src/doc/samples/(.*).adoc$}) do |m|
+    `bash bin/revealjs src/doc/samples/#{m[1]}.adoc`
   end
 end
