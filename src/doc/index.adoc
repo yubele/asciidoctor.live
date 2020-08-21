@@ -16,7 +16,8 @@
 - link:architecture[構成]
 
 === サンプル
-- link:revealjs/doc/samples/lt.html[LT]
+- link:revealjs/doc/samples/lt/sample.html[LT]
+- link:revealjs/doc/samples/lt/myself_point.html[LT2]
 
 == links
 |===
