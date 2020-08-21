@@ -7,6 +7,4 @@ if [ -z $1 ];then
     exit 1
 fi
 
-out_file=$(echo $1 | sed "s#src/##" | sed "s#\.adoc#.html#")
-
-docker/exec bundle exec asciidoctor-revealjs   -a revealjsdir=https://cdn.jsdelivr.net/npm/reveal.js@$VERSION -o doc/revealjs/$out_file $1
+docker/exec $1

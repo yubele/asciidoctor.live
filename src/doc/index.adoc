@@ -4,7 +4,8 @@
 ライブプレビュー機能付きのAsciidoctor編集ツールです。
 
 == 特徴
-- asciidoctor-diagramでPlantUMLも使えます！
+- PlantUMLも使えます！
+- RevealJSでプレゼンも作れます!
 - dockerで動くのでdockerがサポートされている環境であれば動きます。
 - image:https://img.shields.io/github/license/newsdict/asciidoctor.live[License]です。
 - PR大歓迎!
@@ -13,6 +14,10 @@
 - link:revealjs/README.html[Presentation(RevealJS)]
 - link:getting_start[Getting Start]
 - link:architecture[構成]
+
+=== サンプル
+- link:revealjs/doc/samples/lt/sample.html[LT]
+- link:revealjs/doc/samples/lt/myself_point.html[LT2]
 
 == links
 |===
