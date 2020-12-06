@@ -2,8 +2,8 @@
 . $(dirname $BASH_SOURCE)/../bootstrap.sh
 cd /var/www/docker
 # Compile docs
-for i in $(find src/doc -name '*.adoc')
+for i in $(find ./ -name '*.adoc')
 do
-    bash src/provisioning/startup/asciidoctor/update.sh $i $(echo $i | sed "s#src/##" |sed 's/\.adoc//')
+    bash bin/generate.sh $i
 done
 /usr/sbin/nginx -c /etc/nginx/nginx.conf -g 'daemon off;'

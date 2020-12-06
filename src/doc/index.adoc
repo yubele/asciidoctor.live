@@ -12,8 +12,8 @@
 
 == ドキュメント
 - link:revealjs/README.html[Presentation(RevealJS)]
-- link:getting_start[Getting Start]
-- link:architecture[構成]
+- link:getting_start.html[Getting Start]
+- link:architecture.html[構成]
 
 === サンプル
 - link:revealjs/doc/samples/lt/sample.html[LT]
