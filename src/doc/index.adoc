@@ -34,4 +34,4 @@
 |===
 
 == Asciidoctor sample
-link:example[]
+link:example.html[]
