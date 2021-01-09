@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.2'
+ruby '3.0.0'
 
 # An implementation of the AsciiDoc text processor and publishing toolchain (https://asciidoctor.org)
 gem 'asciidoctor'
