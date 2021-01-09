@@ -5,4 +5,4 @@
 /src/doc/**/*.png.cache
 /node_modules/
 /yarn-error.log
-/srv/doc/user
+/src/doc/user
