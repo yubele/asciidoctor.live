@@ -7,6 +7,7 @@ ENV LANG "C.UTF-8"
 ENV NOKOGIRI_USE_SYSTEM_LIBRARIES "YES"
 
 # Install japanese font
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 RUN apt update && \
     apt install -y fonts-takao-mincho
 
